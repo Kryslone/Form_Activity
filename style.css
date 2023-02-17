@@ -1,0 +1,43 @@
+body {
+    font-family: Oswald;
+    background-color: lightslategrey;
+}
+form {
+    padding: 15px;
+    border: 10px;
+    width: 210px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 800px;
+    margin-top: 130px;
+}
+input[type="text"] {
+    width: 200px;
+}
+input[type="email"] {
+    width: 200px;
+}
+input[type="password"] {
+    width: 200px;
+}
+input[type="date"] {
+    width: 200px;
+}
+button[type="submit"] {
+    background-color: green;
+    border: 0;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 6em;
+}
+button[type="reset"] {
+    background-color: red;
+    border: 0;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 6em;
+}
