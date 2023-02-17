@@ -10,8 +10,7 @@ form {
     border-color: white;
     background-color: white;
     border-radius: 20px;
-    margin-left: 800px;
-    margin-top: 130px;
+    margin: 0 auto;
 }
 input[type="text"] {
     width: 200px;
@@ -25,7 +24,7 @@ input[type="password"] {
 input[type="date"] {
     width: 200px;
 }
-button[type="submit"] {
+input[type="button"] {
     background-color: green;
     border: 0;
     color: white;
@@ -40,4 +39,16 @@ button[type="reset"] {
     font-size: 12px;
     padding: 5px;
     width: 6em;
+}
+#display1 {
+    color: red;
+    font-size: 14px;
+}
+#display2 {
+    color: red;
+    font-size: 14px;
+}
+#display3 {
+    color: green;
+    font-size: 11px;
 }
