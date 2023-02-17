@@ -3,21 +3,26 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Oswald'>
+        <script language="Javascript" type="text/javascript" src="java.js">
+        </script>
     </head>
     <body>
-        <form>
+        <form name="rF">
         <h1>Registration Form</h1>
-        First Name: <br><input type="text" name="firstname" /><br>
-        Last Name: <br><input type="text" name="lastname" /><br>
-        Nick Name: <br><input type="text" name="nickname" /><br>
-        Email: <br><input type="email"name="email"><br>
-        Password: <br><input type="password" name="password" /><br>
-        Date of Birth: <br><input type="date" name="dataofbirth"><br>
-        Gender: <br><input type="checkbox" name="Male" /> Male <input type="checkbox" name="Female"> Female <input type="checkbox" name="other" /> Other <br>
+        <p id="display3"></p>
+        First Name: <input type="text" name="firstname"/><br/>
+        Last Name: <input type="text" name="lastname"/><br/>
+        Nick Name: <input type="text" name="nickname"/><br/>
+        Email: <input type="email"name="email"><br>
+        Password: <input type="password" name="password"/><br>
+        <p id="display1"></p>
+        Date of Birth: <br><input type="date" name="dataofbirth"/><br>
+        <p id="display2"></p>
+        Gender: <br><input type="radio" name="Male" /> Male <input type="radio" name="Female"> Female <input type="radio" name="other" /> Other <br>
         Mobile: <br><input type="text" name="mobileno" /><br>
-        Address: <br><textarea cols="25" rows="8"></textarea><br>
-        <button type="submit">Submit</button>
-        <button type="reset" onclick="location.reload()">Reset</button>
+        Address: <br><textarea name="address" cols="25" rows="8"></textarea><br>
+        <input type="button" name="submit" value="Submit" onclick="inputPass();inputAge();checkifValid();">
+        <button type="reset" name="reset" onclick="location.reload()">Reset</button>
         </form>
     </body>
 </html>
